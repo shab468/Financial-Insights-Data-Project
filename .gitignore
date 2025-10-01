@@ -1,0 +1,18 @@
+# Virtual env & Python junk
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep the folder, ignore CSVs)
+data/*
+!data/README.md
+
+# OS metadata
+.DS_Store
+
+# Optional: ignore the generated Excel to keep repo light
+# (delete this line if you WANT to include the .xlsx)
+Financial_Market_Insights_Dashboard.xlsx
